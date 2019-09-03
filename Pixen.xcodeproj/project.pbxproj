@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		263327E4231EED4C0088DD38 /* NSWindowController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263327E3231EED4C0088DD38 /* NSWindowController+Additions.swift */; };
 		26E72CBB1FB7C159006E1CDC /* GifImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E72CBA1FB7C159006E1CDC /* GifImporter.swift */; };
 		6117816108ABA7F30098DCC4 /* PXAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6117815F08ABA7F30098DCC4 /* PXAnimationView.h */; };
 		6117816208ABA7F30098DCC4 /* PXAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6117816008ABA7F30098DCC4 /* PXAnimationView.m */; };
@@ -33,8 +34,6 @@
 		C90C31BE16A705F000992E3D /* PXSeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90C31BB16A705F000992E3D /* PXSeparatorView.m */; };
 		C90C31BF16A705F000992E3D /* PXSeparatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C90C31BB16A705F000992E3D /* PXSeparatorView.m */; };
 		C90C31C016A71A1200992E3D /* PXCanvasWindowController_Info.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD543A51672A0EF00165B7E /* PXCanvasWindowController_Info.m */; };
-		C9104A5B14E38AAC00025103 /* NSWindowController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = C9104A5914E38AAC00025103 /* NSWindowController+Additions.h */; };
-		C9104A5C14E38AAC00025103 /* NSWindowController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9104A5A14E38AAC00025103 /* NSWindowController+Additions.m */; };
 		C912537516F94CA800D24ED5 /* PXPropertiesBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C912537316F94CA800D24ED5 /* PXPropertiesBar.h */; };
 		C912537616F94CA800D24ED5 /* PXPropertiesBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C912537316F94CA800D24ED5 /* PXPropertiesBar.h */; };
 		C912537716F94CA800D24ED5 /* PXPropertiesBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C912537416F94CA800D24ED5 /* PXPropertiesBar.m */; };
@@ -267,7 +266,6 @@
 		C9ACC15D15C70AB300D157CB /* PXClickableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ADD4A114007FE500257E38 /* PXClickableView.m */; };
 		C9ACC15E15C70AB300D157CB /* PXPatternItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ADD4A51400821300257E38 /* PXPatternItem.m */; };
 		C9ACC15F15C70AB300D157CB /* UTType+NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F7F16B142BE3D500AB8E37 /* UTType+NSString.m */; };
-		C9ACC16015C70AB300D157CB /* NSWindowController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9104A5A14E38AAC00025103 /* NSWindowController+Additions.m */; };
 		C9ACC16115C70AB300D157CB /* PXColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D58D8A14F0316B00A62C10 /* PXColor.m */; };
 		C9ACC16215C70AB300D157CB /* PXColorArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D58D8E14F031EB00A62C10 /* PXColorArray.m */; };
 		C9ACC16315C70AB300D157CB /* PXAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ECD4D8150BEF39001F686C /* PXAboutWindowController.m */; };
@@ -427,7 +425,6 @@
 		C9ACC20215C70AB300D157CB /* PXClickableView.h in Headers */ = {isa = PBXBuildFile; fileRef = C9ADD4A014007FE500257E38 /* PXClickableView.h */; };
 		C9ACC20315C70AB300D157CB /* PXPatternItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C9ADD4A41400821300257E38 /* PXPatternItem.h */; };
 		C9ACC20415C70AB300D157CB /* UTType+NSString.h in Headers */ = {isa = PBXBuildFile; fileRef = C9F7F16A142BE3D500AB8E37 /* UTType+NSString.h */; };
-		C9ACC20515C70AB300D157CB /* NSWindowController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = C9104A5914E38AAC00025103 /* NSWindowController+Additions.h */; };
 		C9ACC20615C70AB300D157CB /* PXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D58D8914F0316B00A62C10 /* PXColor.h */; };
 		C9ACC20715C70AB300D157CB /* PXColorArray.h in Headers */ = {isa = PBXBuildFile; fileRef = C9D58D8D14F031EB00A62C10 /* PXColorArray.h */; };
 		C9ACC20815C70AB300D157CB /* PXAboutWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = C9ECD4D7150BEF39001F686C /* PXAboutWindowController.h */; };
@@ -1051,6 +1048,7 @@
 /* Begin PBXFileReference section */
 		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		263327E3231EED4C0088DD38 /* NSWindowController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSWindowController+Additions.swift"; sourceTree = "<group>"; };
 		26E72CBA1FB7C159006E1CDC /* GifImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImporter.swift; sourceTree = "<group>"; };
 		26E72CBC1FB7D1B5006E1CDC /* Pixen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pixen-Bridging-Header.h"; sourceTree = "<group>"; };
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = English; path = English.lproj/Credits.html; sourceTree = "<group>"; };
@@ -1082,8 +1080,6 @@
 		C90C31B516A60C1300992E3D /* PXInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXInfoView.m; path = Info/PXInfoView.m; sourceTree = "<group>"; };
 		C90C31BA16A705F000992E3D /* PXSeparatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PXSeparatorView.h; path = Info/PXSeparatorView.h; sourceTree = "<group>"; };
 		C90C31BB16A705F000992E3D /* PXSeparatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PXSeparatorView.m; path = Info/PXSeparatorView.m; sourceTree = "<group>"; };
-		C9104A5914E38AAC00025103 /* NSWindowController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindowController+Additions.h"; sourceTree = "<group>"; };
-		C9104A5A14E38AAC00025103 /* NSWindowController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindowController+Additions.m"; sourceTree = "<group>"; };
 		C912537316F94CA800D24ED5 /* PXPropertiesBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXPropertiesBar.h; sourceTree = "<group>"; };
 		C912537416F94CA800D24ED5 /* PXPropertiesBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXPropertiesBar.m; sourceTree = "<group>"; };
 		C912F26C13D5CDC100C0CF29 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PXSpriteSheetExporter.xib; sourceTree = "<group>"; };
@@ -1643,6 +1639,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		263327E2231EED2B0088DD38 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				263327E3231EED4C0088DD38 /* NSWindowController+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2A37F4AAFDCFA73011CA2CEA /* Pixen */ = {
 			isa = PBXGroup;
 			children = (
@@ -1666,6 +1670,7 @@
 		2A37F4ABFDCFA73011CA2CEA /* Pixen Application */ = {
 			isa = PBXGroup;
 			children = (
+				263327E2231EED2B0088DD38 /* Extensions */,
 				EA31F8610CE7BD8B00EC481B /* Application */,
 				EA31F8680CE7BD8B00EC481B /* Preferences */,
 				EA31F86D0CE7BD8B00EC481B /* Welcome */,
@@ -1832,8 +1837,6 @@
 		EA31F8610CE7BD8B00EC481B /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				C9104A5914E38AAC00025103 /* NSWindowController+Additions.h */,
-				C9104A5A14E38AAC00025103 /* NSWindowController+Additions.m */,
 				C9ECD4D7150BEF39001F686C /* PXAboutWindowController.h */,
 				C9ECD4D8150BEF39001F686C /* PXAboutWindowController.m */,
 				EA31F8640CE7BD8B00EC481B /* PXDocumentController.h */,
@@ -2800,7 +2803,6 @@
 				C9ACC20215C70AB300D157CB /* PXClickableView.h in Headers */,
 				C9ACC20315C70AB300D157CB /* PXPatternItem.h in Headers */,
 				C9ACC20415C70AB300D157CB /* UTType+NSString.h in Headers */,
-				C9ACC20515C70AB300D157CB /* NSWindowController+Additions.h in Headers */,
 				C9ACC20615C70AB300D157CB /* PXColor.h in Headers */,
 				C9ACC20715C70AB300D157CB /* PXColorArray.h in Headers */,
 				C9ACC20815C70AB300D157CB /* PXAboutWindowController.h in Headers */,
@@ -2972,7 +2974,6 @@
 				C9ADD4A214007FE500257E38 /* PXClickableView.h in Headers */,
 				C9ADD4A61400821300257E38 /* PXPatternItem.h in Headers */,
 				C9F7F16C142BE3D500AB8E37 /* UTType+NSString.h in Headers */,
-				C9104A5B14E38AAC00025103 /* NSWindowController+Additions.h in Headers */,
 				C9D58D8B14F0316B00A62C10 /* PXColor.h in Headers */,
 				C9D58D8F14F031EB00A62C10 /* PXColorArray.h in Headers */,
 				C9ECD4D9150BEF39001F686C /* PXAboutWindowController.h in Headers */,
@@ -3574,7 +3575,6 @@
 				C9ACC15D15C70AB300D157CB /* PXClickableView.m in Sources */,
 				C9ACC15E15C70AB300D157CB /* PXPatternItem.m in Sources */,
 				C9ACC15F15C70AB300D157CB /* UTType+NSString.m in Sources */,
-				C9ACC16015C70AB300D157CB /* NSWindowController+Additions.m in Sources */,
 				C9ACC16115C70AB300D157CB /* PXColor.m in Sources */,
 				C9ACC16215C70AB300D157CB /* PXColorArray.m in Sources */,
 				C9ACC16315C70AB300D157CB /* PXAboutWindowController.m in Sources */,
@@ -3607,6 +3607,7 @@
 				EAF694F506A9AE0B0019D8D7 /* PXCanvas_ApplescriptAdditions.m in Sources */,
 				EAF6950C06A9AE0B0019D8D7 /* PXCanvasPrintView.m in Sources */,
 				BF1A538807ECD9200017A44E /* PXImage.m in Sources */,
+				263327E4231EED4C0088DD38 /* NSWindowController+Additions.swift in Sources */,
 				EA561871089DB48400C12231 /* PXCanvas_Drawing.m in Sources */,
 				EA56188C089DB5FE00C12231 /* PXCanvas_ImportingExporting.m in Sources */,
 				EA56189C089DB67B00C12231 /* PXCanvas_CopyPaste.m in Sources */,
@@ -3753,7 +3754,6 @@
 				C9ADD4A314007FE500257E38 /* PXClickableView.m in Sources */,
 				C9ADD4A71400821300257E38 /* PXPatternItem.m in Sources */,
 				C9F7F16D142BE3D500AB8E37 /* UTType+NSString.m in Sources */,
-				C9104A5C14E38AAC00025103 /* NSWindowController+Additions.m in Sources */,
 				C9D58D8C14F0316B00A62C10 /* PXColor.m in Sources */,
 				C9D58D9014F031EB00A62C10 /* PXColorArray.m in Sources */,
 				C9ECD4DA150BEF39001F686C /* PXAboutWindowController.m in Sources */,

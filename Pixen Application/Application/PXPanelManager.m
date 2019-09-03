@@ -5,7 +5,6 @@
 
 #import "PXPanelManager.h"
 
-#import "NSWindowController+Additions.h"
 #import "PXWelcomeController.h"
 #import "PXAboutWindowController.h"
 #import "PXToolPaletteController.h"
@@ -16,6 +15,8 @@
 #import "PXPalette.h"
 #import "PXPaletteView.h"
 #import "PXPalettePanel.h"
+
+#import "Pixen-Swift.h"
 
 @implementation PXPanelManager
 

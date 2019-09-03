@@ -8,7 +8,6 @@
 #import "PXCanvasWindowController_IBActions.h"
 
 #import "NSImage+Reps.h"
-#import "NSWindowController+Additions.h"
 #import "PXCanvas_Layers.h"
 #import "PXCanvas_ImportingExporting.h"
 #import "PXCanvas_CopyPaste.h"
@@ -33,6 +32,8 @@
 #import "PXAnimationDocument.h"
 #import "PXAnimation.h"
 #import "PXCel.h"
+
+#import "Pixen-Swift.h"
 
 @implementation PXCanvasWindowController(IBActions)
 

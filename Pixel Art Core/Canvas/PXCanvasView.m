@@ -5,7 +5,6 @@
 
 #import "PXCanvasView.h"
 
-#import "NSWindowController+Additions.h"
 #import "PXCanvas.h"
 #import "PXCanvas_Modifying.h"
 #import "PXCanvas_Drawing.h"
@@ -28,6 +27,8 @@
 #import "SBCenteringClipView.h"
 
 #import "PXCanvasController.h"
+
+#import "Pixen-Swift.h"
 
 @interface PXTool(DrawRectOnTopInViewWarningSilencer)
 - (void)drawRectOnTop:(NSRect)rect inView:(PXCanvasView *)view;
