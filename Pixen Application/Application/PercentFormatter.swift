@@ -11,20 +11,22 @@ import Foundation
 class PercentFormatter: NumberFormatter {
     override func isPartialStringValid(_ partialString: String, newEditingString newString: AutoreleasingUnsafeMutablePointer<NSString?>?, errorDescription error: AutoreleasingUnsafeMutablePointer<NSString?>?) -> Bool {
         
-        guard let ex1 = try? NSRegularExpression(pattern: "*^\\d+%$", options: []),
-            let ex2 = try? NSRegularExpression(pattern: "*^\\d+$", options: []) else {
-                
-                return false
+        
+        do {
+            let ex1 = try NSRegularExpression(pattern: "*^\\d+%$", options: [])
+            let ex2 = try NSRegularExpression(pattern: "*^\\d+$", options: [])
+            let match1 = ex1.numberOfMatches(in: partialString,
+                                             options: [],
+                                             range: NSMakeRange(0, partialString.count))
+            
+            let match2 = ex2.numberOfMatches(in: partialString,
+                                             options: [],
+                                             range: NSMakeRange(0, partialString.count))
+            
+            return (match1 + match2) > 0
+        } catch let err {
+            error?.pointee = err.localizedDescription as NSString
+            return false
         }
-        
-        let match1 = ex1.numberOfMatches(in: partialString,
-                                         options: [],
-                                         range: NSMakeRange(0, partialString.count))
-        
-        let match2 = ex2.numberOfMatches(in: partialString,
-                                         options: [],
-                                         range: NSMakeRange(0, partialString.count))
-        
-        return (match1 + match2) > 0
     }
 }
