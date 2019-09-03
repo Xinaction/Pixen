@@ -6,7 +6,6 @@
 #import "PXPreviewController.h"
 
 #import "NSImage+Reps.h"
-#import "NSWindowController+Additions.h"
 #import "PXAnimation.h"
 #import "PXAnimationDocument.h"
 #import "PXCanvas.h"
@@ -26,6 +25,8 @@
 #import "PXPreviewControlView.h"
 #import "PXPreviewResizePrompter.h"
 #import "PXNotifications.h"
+#import "Pixen-Swift.h"
+
 
 @interface NSWindow(TitleBarHeight)
 - (float)titleBarHeight;

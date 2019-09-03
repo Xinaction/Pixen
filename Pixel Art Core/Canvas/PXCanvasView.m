@@ -5,7 +5,6 @@
 
 #import "PXCanvasView.h"
 
-#import "NSWindowController+Additions.h"
 #import "PXCanvas.h"
 #import "PXCanvas_Modifying.h"
 #import "PXCanvas_Drawing.h"
