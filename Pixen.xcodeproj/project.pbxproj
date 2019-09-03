@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		26A92155231EDA3E00A0E0B1 /* NSWindowController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A92154231EDA3E00A0E0B1 /* NSWindowController+Additions.swift */; };
+		26A92159231EDC3800A0E0B1 /* PercentFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A92158231EDC3800A0E0B1 /* PercentFormatter.swift */; };
 		26E72CBB1FB7C159006E1CDC /* GifImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E72CBA1FB7C159006E1CDC /* GifImporter.swift */; };
 		6117816108ABA7F30098DCC4 /* PXAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6117815F08ABA7F30098DCC4 /* PXAnimationView.h */; };
 		6117816208ABA7F30098DCC4 /* PXAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6117816008ABA7F30098DCC4 /* PXAnimationView.m */; };
@@ -1049,6 +1050,7 @@
 		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		26A92154231EDA3E00A0E0B1 /* NSWindowController+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSWindowController+Additions.swift"; sourceTree = "<group>"; };
+		26A92158231EDC3800A0E0B1 /* PercentFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentFormatter.swift; sourceTree = "<group>"; };
 		26E72CBA1FB7C159006E1CDC /* GifImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImporter.swift; sourceTree = "<group>"; };
 		26E72CBC1FB7D1B5006E1CDC /* Pixen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pixen-Bridging-Header.h"; sourceTree = "<group>"; };
 		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = English; path = English.lproj/Credits.html; sourceTree = "<group>"; };
@@ -1844,6 +1846,7 @@
 				EA31F8660CE7BD8B00EC481B /* PXPanelManager.h */,
 				EA31F8670CE7BD8B00EC481B /* PXPanelManager.m */,
 				C91C4F9215602F8000EA4AF5 /* PXPercentFormatter.h */,
+				26A92158231EDC3800A0E0B1 /* PercentFormatter.swift */,
 				C91C4F9315602F8000EA4AF5 /* PXPercentFormatter.m */,
 				EAAB76740CEF54F300F2EF66 /* PXDocument.h */,
 				EAAB76750CEF54F300F2EF66 /* PXDocument.m */,
@@ -3729,6 +3732,7 @@
 				EA31FCE70CE7D7C200EC481B /* PXNSImageView.m in Sources */,
 				EA31FCE90CE7D7C200EC481B /* InterpolatePoint.m in Sources */,
 				EA31FCEB0CE7D7C200EC481B /* NSArray_DeepMutableCopy.m in Sources */,
+				26A92159231EDC3800A0E0B1 /* PercentFormatter.swift in Sources */,
 				EA31FCED0CE7D7C200EC481B /* NSBezierPath+PXRoundedRectangleAdditions.m in Sources */,
 				EA31FCEF0CE7D7C200EC481B /* NSColor+PXPaletteAdditions.m in Sources */,
 				EA31FCF10CE7D7C200EC481B /* NSMutableArray+ReorderingAdditions.m in Sources */,
